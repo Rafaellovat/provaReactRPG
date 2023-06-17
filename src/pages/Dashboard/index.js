@@ -20,13 +20,7 @@ const listaItens = [
 
 export default function App() {
   return (
-    <SafeAreaView style={styles.container}>
-      <View style={styles.header}>Bem Vindo à Loja de trocas!
-      </View>
-      <ScrollView horizontal>
-      {listaItens.map(item => <Item item={item} />)}
-      </ScrollView>
-    </SafeAreaView>
+    <Text>Os itens não aparaceram</Text>
   );
 }
 
